@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="shortcut icon" type="image/png" href="trifuerza.gif">
+    <link rel="stylesheet" type="text/css" href="Estilo.css" />
+
+    <script>
+        function mostrarDivDerecha() {
+          var divDerecha = document.getElementById("menu-derecha");
+          divDerecha.classList.toggle("mostrar");
+        }
+
+        function ocultarDivDerecha() {
+        var divDerecha = document.getElementById("menu-derecha");
+        divDerecha.classList.remove("mostrar");
+        }
+    </script>
+
+</head>
+<body>
+    <div id="menu">
+        <div class="menu-button"><h1 onclick="window.location.href='./3 en raya/3EnRaya.html'">3 En Raya</h1></div>
+        <div class="menu-button">Botón 2</div>
+        <div class="menu-button">Botón 3</div>
+        <div id="ajustes" onclick="mostrarDivDerecha()"><img src="ajustes.png"></div>
+    </div>
+
+    <div id="menu-derecha">
+        <div id="ajustes" onclick="ocultarDivDerecha()"><img src="x.png"></div>
+        <h2>Ajustes</h2>
+        <br>
+        <p>Modo:</p>
+        <div id="zonaModo">
+            <img id="noche" src="./noche.png" onclick="ponerModoNoche()">
+            <img id="dia" src="./dia.png" onclick="ponerModoDia()">
+        </div>
+        <br>
+        <p>Nombre de Usuario</p>
+        <div class="username-container">
+            <input type="text" id="usernameInput" placeholder="Ingrese su nombre"><br>
+            <button onclick="saveUsername()">Guardar</button>
+        </div>
+    </div>
+
+    <div id="cuerpo">
+        <div id="bienvenida">
+            <h1>Bienvenido a la página de inicio héroe legendario</h1>
+        </div>
+        <br><br>
+        <div id="portaimagenes">
+            <div id="imagen" class="ganon"><img src="ganon.gif"></div>
+            <div id="imagen" class="link"><img src="link.gif"></div>
+        </div>
+        
+        <div class="username-container">
+            <p id="usernameMessage"></p>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +8,52 @@
     <link rel="stylesheet" type="text/css" href="./estilo3ER.css"/>
 </head>
 <body> 
-    <div id="ganador"></div>
-    <div id="boton"><a href="./3EnRaya.html">Reiniciar partida</a></div>
+    <div id="menu">
+        <div class="menu-button"><h1 onclick="window.location.href='../Index.html'">Inicio</h1></div>
+        <div class="menu-button">Botón 2</div>
+        <div class="menu-button">Botón 3</div>
+        <div id="ajustes" onclick="mostrarDivDerecha()"><img src="../ajustes.png"></div>
+    </div>
 
-    <h1 style="text-align: center;">3 EN RAYA</h1>
-    <h2 id="indicadorTurno">Turno de ❌</h2>
-    <div id="contenedor">
-        <div class="columna" id="col1">
-            <div class="casilla" id="c1"></div>
-            <div class="casilla" id="c4"></div>
-            <div class="casilla" id="c7"></div>
+    <div id="menu-derecha">
+        <div id="ajustes" onclick="ocultarDivDerecha()"><img src="../x.png"></div>
+        <h2>Ajustes</h2>
+        <br>
+        <p>Modo:</p>
+        <div id="zonaModo">
+            <img id="noche" src="../noche.png" onclick="ponerModoNoche()">
+            <img id="dia" src="../dia.png" onclick="ponerModoDia()">
         </div>
-        <div class="columna" id="col2">
-            <div class="casilla" id="c2"></div>
-            <div class="casilla" id="c5"></div>
-            <div class="casilla" id="c8"></div>
+        <br>
+        <p>Nombre de Usuario</p>
+        <div class="username-container">
+            <input type="text" id="usernameInput" placeholder="Ingrese su nombre"><br>
+            <button onclick="saveUsername()">Guardar</button>
         </div>
-        <div class="columna" id="col3">
-            <div class="casilla" id="c3"></div>
-            <div class="casilla" id="c6"></div>
-            <div class="casilla" id="c9"></div>
+    </div>
+
+    <div id="cuerpo">
+        <div id="ganador"></div>
+        <div id="boton"><a href="./3EnRaya.html">Reiniciar partida</a></div>
+
+        <h2 style="text-align: center;">3 EN RAYA</h2>
+        <h3 id="indicadorTurno">Turno de ❌</h3>
+        <div id="contenedor">
+            <div class="columna" id="col1">
+                <div class="casilla" id="c1"></div>
+                <div class="casilla" id="c4"></div>
+                <div class="casilla" id="c7"></div>
+            </div>
+            <div class="columna" id="col2">
+                <div class="casilla" id="c2"></div>
+                <div class="casilla" id="c5"></div>
+                <div class="casilla" id="c8"></div>
+            </div>
+            <div class="columna" id="col3">
+                <div class="casilla" id="c3"></div>
+                <div class="casilla" id="c6"></div>
+                <div class="casilla" id="c9"></div>
+            </div>
         </div>
     </div> 
     <script src="./script.js"></script>  

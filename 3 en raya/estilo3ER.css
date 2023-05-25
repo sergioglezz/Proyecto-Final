@@ -1,10 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
+:root {
+  --colorFondo: yellow;
+  --colorFuente:green;
+  --colorFuenteDia: black;
+  --colorFondoDia: gainsboro;
+  --colorFuenteNoche:white;
+  --colorFondoNoche:darkgray;
+  --anchoIconoModo:20px;
+  --modoGuardado:dia;
+}
+
+#zonaModo {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  padding-top: 20px;
+}
+
+#zonaModo img {
+  width:150px;
+  height:150px;
+}
+
+#dia, #noche {
+  width:100%;
+}
+
+#menu {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  background-color: #333333;
+  color: #fff;
+}
+
+.menu-button {
+  display: inline-block;
+  height: 100%;
+  padding: 30px 20px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #555;
+}
+
+#ajustes {
+  float: right;
+  height: 97px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#ajustes:hover {
+  background-color: #555;
+}
+
+#ajustes img {
+  width: 73px;
+  height: 73px;
+}
+
+#menu-derecha {
+  position: fixed;
+  top: 0;
+  right: -30%;
+  width: 30%;
+  height: 100%;
+  background-color: #ccc;
+  transition: right 0.3s ease-in-out;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+#menu-derecha.mostrar {
+  right: 0;
+}
+
+input{
+  height: 50px;
+  width: 80%;
+  font-size: 30px;
+  text-align: center;
+}
+
+button{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+}
+
+.user-message {
+  position: fixed;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  bottom: 20px;
+  left: 20px;
+}
+.username-container {
+  margin-bottom: 20px;
+}
+
+#cuerpo h2{
     text-align: center;
     font-size: 100px;
     font-family: Comic Sans MS;
@@ -12,7 +118,7 @@ h1{
     -webkit-text-stroke: 4px black;
 }
 
-h2{
+#cuerpo h3{
     text-align: center;
     font-size: 50px;
     font-family: Comic Sans MS;
