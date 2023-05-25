@@ -7,25 +7,12 @@
     <title>Inicio</title>
     <link rel="shortcut icon" type="image/png" href="trifuerza.gif">
     <link rel="stylesheet" type="text/css" href="Estilo.css" />
-
-    <script>
-        function mostrarDivDerecha() {
-          var divDerecha = document.getElementById("menu-derecha");
-          divDerecha.classList.toggle("mostrar");
-        }
-
-        function ocultarDivDerecha() {
-        var divDerecha = document.getElementById("menu-derecha");
-        divDerecha.classList.remove("mostrar");
-        }
-    </script>
-
 </head>
 <body>
     <div id="menu">
         <div class="menu-button"><h1 onclick="window.location.href='./3 en raya/3EnRaya.html'">3 En Raya</h1></div>
-        <div class="menu-button">Botón 2</div>
-        <div class="menu-button">Botón 3</div>
+        <div class="menu-button"><h1 onclick="window.location.href='./Cancion.xml'">Canción</h1></div>
+        <div class="menu-button"><h1 onclick="window.location.href='./Mapa de hyrule/Mapa.html'">Mapa</h1></div>
         <div id="ajustes" onclick="mostrarDivDerecha()"><img src="ajustes.png"></div>
     </div>
 
@@ -44,6 +31,7 @@
             <input type="text" id="usernameInput" placeholder="Ingrese su nombre"><br>
             <button onclick="saveUsername()">Guardar</button>
         </div>
+        <div class="link"><img src="ajustes.gif"></div>
     </div>
 
     <div id="cuerpo">
@@ -53,6 +41,7 @@
         <br><br>
         <div id="portaimagenes">
             <div id="imagen" class="ganon"><img src="ganon.gif"></div>
+            <div id="imagen" class="cataclismo"><img src="Cataclismo.png"></div>
             <div id="imagen" class="link"><img src="link.gif"></div>
         </div>
         

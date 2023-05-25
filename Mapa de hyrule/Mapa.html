@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="shortcut icon" type="image/png" href="trifuerza.gif">
+    <link rel="stylesheet" type="text/css" href="estiloMapa.css" />
+</head>
+<body>
+    <div id="menu">
+        <div class="menu-button"><h1 onclick="window.location.href='../Index.html'">Inicio</h1></div>
+        <div class="menu-button"><h1 onclick="window.location.href='./3 en raya/3EnRaya.html'">3 En Raya</h1></div>
+        <div class="menu-button"><h1 onclick="window.location.href='../Cancion.xml'">Canción</h1></div>
+        <div id="ajustes" onclick="mostrarDivDerecha()"><img src="../ajustes.png"></div>
+    </div>
+
+    <div id="menu-derecha">
+        <div id="ajustes" onclick="ocultarDivDerecha()"><img src="../x.png"></div>
+        <h2>Ajustes</h2>
+        <br>
+        <p>Modo:</p>
+        <div id="zonaModo">
+            <img id="noche" src="../noche.png" onclick="ponerModoNoche()">
+            <img id="dia" src="../dia.png" onclick="ponerModoDia()">
+        </div>
+        <br>
+        <p>Nombre de Usuario</p>
+        <div class="username-container">
+            <input type="text" id="usernameInput" placeholder="Ingrese su nombre"><br>
+            <button onclick="saveUsername()">Guardar</button>
+        </div>
+        <div class="link"><img src="ajustes.gif"></div>
+    </div>
+
+    <div id="cuerpo">
+        <img src="mapa.png">
+    </div>
+</body>
+</html>

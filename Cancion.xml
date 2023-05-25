@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Main.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Sergio/Desktop/Ejercicio%20XML/Cancion.xsd">
+    <datos>
+        <titulo>Ojitos aguaos</titulo>
+        <autor>Cruz Cafuné</autor>
+        <fecha>2020</fecha>
+        <album>Moonlight922</album>
+        <genero>Hip-hop/Rap</genero>
+    </datos>
+    <letra>
+        <estrofa>
+            <verso>Con los ojitos aguaos</verso>
+            <verso>Apretando la mandíbula y fumando callao'</verso>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Solito en el mirador te imagino a mi lao'</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Siempre que veníamos el cristal se quedaba empañao',</verso>
+            <verso>Nos costaba ver la isla porque había mucho vaho,</verso>
+            <verso>Pero hoy me cuesta verla con los ojos aguaos</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Vibra el móvil, deseo que seas tú</verso>
+            <verso>Por tu barrio tengo dejavus</verso>
+            <verso>Me consuela pensar que pronto es verano</verso>
+            <verso>Al ver el sol cayendo ca vez más al sur</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Siempre conduzco solo</verso>
+            <verso>Ya no vas de copiloto</verso>
+            <verso>Y voy de madrugada hablando</verso>
+            <verso>Para mí mismo como un loco</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Y cuando cae la noche</verso>
+            <verso>Añoro los momentos en el coche</verso>
+            <verso>El sexo, el cariño, el roce</verso>
+            <verso>Sacando vídeos, haciendo mil poses,</verso>
+            <verso>Una Cenicienta que no huye a las doce</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Y baby cuando salgo</verso>
+            <verso>Los chiquillos me dicen que no preste atención</verso>
+            <verso>Y finjo que les hago caso</verso>
+            <verso>Dios sabe que lo intento, pero tengo</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Apretando la mandíbula y fumando callao'</verso>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Solito en el mirador te imagino a mi lao'</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Siempre que veníamos el cristal se quedaba empañao',</verso>
+            <verso>Nos costaba ver la isla porque había mucho vaho,</verso>
+            <verso>Pero hoy me cuesta verla con los ojos aguaos</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Hoy me cuesta fleje, hoy me cuesta demasiao',</verso>
+            <verso>Pienso en qué hubiera pasao' con to'l cuarto tirao'</verso>
+            <verso>Sé que pienso to' más de la cuenta,</verso>
+            <verso>Creí que esa complicidad era sólo nuestra</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Me decías que eras mía acostao's,</verso>
+            <verso>Pero tú no eres de nadie, bae, tú eres de to's lao's</verso>
+            <verso>Sé que pienso to' más de la cuenta,</verso>
+            <verso>Subes tres historias y me tientas</verso>
+        </estrofa>
+        <estrofa>
+            <verso>A buscar la excusa más tonta pa' hablarte</verso>
+            <verso>Sólo para asegurarme de que estás bien</verso>
+            <verso>Sólo pa' volver a pronunciar tu nombre</verso>
+            <verso>Y escucharte reír al otro lao' del cell</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Y si cuando vuelvas</verso>
+            <verso>No eres la misma que se marchó</verso>
+            <verso>No estoy preparado</verso>
+            <verso>Dios sabe que lo intento,</verso>
+            <verso>Pero tengo</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Apretando la mandíbula y fumando callao'</verso>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Solito en el mirador te imagino a mi lao'</verso>
+        </estrofa>
+        <estrofa>
+            <verso>Los ojitos aguaos</verso>
+            <verso>Siempre que veníamos el cristal se quedaba empañao',</verso>
+            <verso>Nos costaba ver la isla porque había mucho vaho,</verso>
+            <verso>Pero hoy me cuesta verla con los ojos aguaos</verso>
+        </estrofa>
+    </letra>
+</cancion>
