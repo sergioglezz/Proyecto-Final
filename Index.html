@@ -13,6 +13,7 @@
         <div class="menu-button"><h1 onclick="window.location.href='./3 en raya/3EnRaya.html'">3 En Raya</h1></div>
         <div class="menu-button"><h1 onclick="window.location.href='./Cancion.xml'">Canción</h1></div>
         <div class="menu-button"><h1 onclick="window.location.href='./Mapa de hyrule/Mapa.html'">Mapa</h1></div>
+        <div class="menu-button"><h1 onclick="openModal()">Información</h1></div>
         <div id="ajustes" onclick="mostrarDivDerecha()"><img src="ajustes.png"></div>
     </div>
 
@@ -31,12 +32,11 @@
             <input type="text" id="usernameInput" placeholder="Ingrese su nombre"><br>
             <button onclick="saveUsername()">Guardar</button>
         </div>
-        <div class="link"><img src="ajustes.gif"></div>
     </div>
 
     <div id="cuerpo">
         <div id="bienvenida">
-            <h1>Bienvenido a la página de inicio héroe legendario</h1>
+            <h1>Bienvenido a la página de inicio, héroe legendario</h1>
         </div>
         <br><br>
         <div id="portaimagenes">
@@ -49,6 +49,23 @@
             <p id="usernameMessage"></p>
         </div>
 
+        <div id="myModal" class="modal">
+            <div id="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <h1>Sergio González Castilla 1º DAM</h1>
+              <h4>1. Entrega a tiempo correcta</h4>
+              <h4>2. La URL funciona bien</h4>
+              <h4>3. El menú es visible en todas las paginas, ademas tiene un hoven en cada boton con los enlaces</h4>
+              <h4>4. Tiene las paginas pedidas pero ajustes esta incluido en el menú y puede ser visto desde cualquier pagina</h4>
+              <h4>5. Se utiliza el web storage en el modo dia y noche y el nombre de usuario</h4>
+              <h4>6. Bueno el punto 6 lo tienes aqui delante jeje</h4>
+              <h4>7. Hay un enlace a un xsl en el menu llamado "Canción"</h4>
+              <h4>8. Se utiliza para cambiar el icono del modo y los colores del texto</h4>
+              <h4>9. Usado para el nombre de usuario y en la página de Mapa</h4>
+              <h4>10. Facilmente visible abajo a la derecha</h4>
+              <h4>Y como detalle puse favicons en cada página</h4>
+            </div>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>

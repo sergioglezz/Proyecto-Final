@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3 EN RAYA</title>
+    <link rel="shortcut icon" type="image/png" href="../trifuerza.gif">
     <link rel="stylesheet" type="text/css" href="./estilo3ER.css"/>
 </head>
 <body> 
     <div id="menu">
         <div class="menu-button"><h1 onclick="window.location.href='../Index.html'">Inicio</h1></div>
-        <div class="menu-button">Botón 2</div>
-        <div class="menu-button"><h1 onclick="window.location.href='./Mapa de hyrule/Mapa.html'">Mapa</h1></div>
+        <div class="menu-button"><h1 onclick="window.location.href='../Cancion.xml'">Canción</h1></div>
+        <div class="menu-button"><h1 onclick="window.location.href='../Mapa de hyrule/Mapa.html'">Mapa</h1></div>
+        <div class="menu-button"><h1 onclick="openModal()">Información</h1></div>
         <div id="ajustes" onclick="mostrarDivDerecha()"><img src="../ajustes.png"></div>
     </div>
 
@@ -53,6 +55,23 @@
                 <div class="casilla" id="c3"></div>
                 <div class="casilla" id="c6"></div>
                 <div class="casilla" id="c9"></div>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div id="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <h1>Sergio González Castilla 1º DAM</h1>
+              <h4>1. Entrega a tiempo correcta</h4>
+              <h4>2. La URL funciona bien</h4>
+              <h4>3. El menú es visible en todas las paginas, ademas tiene un hoven en cada boton con los enlaces</h4>
+              <h4>4. Tiene las paginas pedidas pero ajustes esta incluido en el menú y puede ser visto desde cualquier pagina</h4>
+              <h4>5. Se utiliza el web storage en el modo dia y noche y el nombre de usuario</h4>
+              <h4>6. Bueno el punto 6 lo tienes aqui delante jeje</h4>
+              <h4>7. Hay un enlace a un xsl en el menu llamado "Canción"</h4>
+              <h4>8. Se utiliza para cambiar el icono del modo y los colores del texto</h4>
+              <h4>9. Usado para el nombre de usuario y en la página de Mapa</h4>
+              <h4>10. Facilmente visible abajo a la derecha</h4>
+              <h4>Y como detalle puse favicons en cada página</h4>
             </div>
         </div>
     </div> 

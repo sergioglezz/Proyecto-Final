@@ -44,6 +44,8 @@ function ponerModoDia() {
     let menuderecha=document.getElementById("menu-derecha");
     menuderecha.style.color="black";
     menuderecha.style.backgroundColor="#CCCCCC";
+    let modal=document.getElementById("modal-content");
+    modal.style.backgroundColor="#CCCCCC"
     window.localStorage.setItem("--modoGuardado","dia");
 
     // ocultamos el sol
@@ -69,6 +71,8 @@ function ponerModoNoche() {
     let menuderecha=document.getElementById("menu-derecha");
     menuderecha.style.color="white";
     menuderecha.style.backgroundColor="#333333";
+    let modal=document.getElementById("modal-content");
+    modal.style.backgroundColor="#333333"
     window.localStorage.setItem("--modoGuardado","noche");
 
     // mostramos el sol
@@ -96,3 +100,26 @@ function saveUsername() {
   userMessage.textContent = newUsername ? newUsername : "Sin identificar";
   usernameInput.value = "";
 }
+
+// Obtén la referencia a la ventana modal y al botón de cierre
+var modal = document.getElementById("myModal");
+var closeButton = document.getElementsByClassName("close")[0];
+
+// Función para abrir la ventana modal
+function openModal() {
+  modal.style.display = "block";
+}
+
+// Función para cerrar la ventana modal
+function closeModal() {
+  modal.style.display = "none";
+}
+
+// Cierra la ventana modal si el usuario hace clic fuera del contenido
+window.onclick = function(event) {
+  if (event.target == modal) {
+    closeModal();
+  }
+}
+
+console.log("Vamos Alonso a por la 33")
